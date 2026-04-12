@@ -9,18 +9,16 @@
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/allorah_splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "contain"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.allorah.toolkit",
       "adaptiveIcon": {
-      "foregroundImage": "./assets/allorah_splash.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/allorah_icon.png"
       },
-      "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
