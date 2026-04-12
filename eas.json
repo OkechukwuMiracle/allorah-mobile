@@ -13,7 +13,7 @@
       },
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_API_URL": "http://10.159.20.241:3000"
+        "EXPO_PUBLIC_API_URL": "https://allorah-backend.onrender.com"
       }
     },
     "production": {
@@ -21,7 +21,7 @@
         "buildType": "app-bundle"
       },
       "env": {
-        "EXPO_PUBLIC_API_URL": "http://10.159.20.241:3000"
+        "EXPO_PUBLIC_API_URL": "https://allorah-backend.onrender.com"
       }
     }
   }
