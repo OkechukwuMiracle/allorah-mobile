@@ -14,7 +14,7 @@ export default function TabLayout() {
           backgroundColor: Colors.SURFACE,
           borderTopColor: Colors.BORDER,
           borderTopWidth: 1,
-          height: 60,
+          height: 62,
           paddingBottom: 8,
           paddingTop: 4,
         },
@@ -39,6 +39,15 @@ export default function TabLayout() {
           title: 'Tools',
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="build" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="tasks"
+        options={{
+          title: 'Tasks',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="checkbox" size={size} color={color} />
           ),
         }}
       />
